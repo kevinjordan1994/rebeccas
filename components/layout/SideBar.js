@@ -17,7 +17,7 @@ export default function SideBar() {
             <Link href="/">Home</Link>
           </li>
           <li className={styles.sidebar__link}>
-            <Link href="/">Menu</Link>
+            <Link href="/menu">Menu</Link>
           </li>
           <li className={styles.sidebar__link}>
             <Link href="/">Reserve</Link>

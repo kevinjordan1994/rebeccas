@@ -1,7 +1,7 @@
 .image__grid,
 .image__grid div {
   display: flex;
-  gap: 1rem;
+  gap: 12px;
 }
 
 .image__grid div {

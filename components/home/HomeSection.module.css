@@ -1,0 +1,36 @@
+.home_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  align-items: center;
+}
+
+.section__info_div {
+  padding: 10%;
+}
+
+.section__text h2 {
+  padding-bottom: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.section__text p {
+  font-size: 14px;
+}
+
+.section__text {
+  padding-bottom: 4rem;
+}
+
+.section__button {
+  padding: 8px 16px;
+  background-color: #fff;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.section__button:hover {
+  cursor: pointer;
+}
