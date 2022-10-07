@@ -1,5 +1,9 @@
-.image__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
+.image__grid,
+.image__grid div {
+  display: flex;
+  gap: 1rem;
+}
+
+.image__grid div {
+  flex-direction: column;
 }
