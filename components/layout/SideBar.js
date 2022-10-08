@@ -4,14 +4,12 @@ import styles from "./SideBar.module.css";
 export default function SideBar() {
   return (
     <nav className={styles.sidebar__main}>
-      <div className={styles.sidebar__header}>
-        <h1 className={styles.sidebar__title}>Rebecca's</h1>
-        <div className={styles.sidebar__separator}>
-          <address className={styles.sidebar__address}>
-            5700 Ocean Street, <br />
-            Fritton, Fl
-          </address>
-        </div>
+      <h1 className={styles.sidebar__title}>Rebecca's</h1>
+      <div className={styles.sidebar__separator}>
+        <address className={styles.sidebar__address}>
+          5700 Ocean Street, <br />
+          Fritton, Fl
+        </address>
       </div>
       <div className={styles.sidebar__links_container}>
         <ul className={styles.sidebar__links}>

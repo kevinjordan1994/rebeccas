@@ -1,3 +1,5 @@
+import MenuCarousel from "../../components/menu/MenuCarousel";
+
 export default function Menu() {
-  return <h1>Menu page</h1>;
+  return <MenuCarousel />;
 }
