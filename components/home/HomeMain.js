@@ -5,7 +5,7 @@ import styles from "./HomeMain.module.css";
 
 export default function HomeMain(props) {
   return (
-    <div>
+    <div className={styles.home__main}>
       <p className={styles.home__description}>
         A relaxing brunch on the sunny Florida coast
       </p>
